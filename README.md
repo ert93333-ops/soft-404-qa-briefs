@@ -23,7 +23,7 @@ Billing is not connected. The MVP uses early-access, demo-request, and purchase-
 
 - Landing page: https://ert93333-ops.github.io/soft-404-qa-briefs/
 - Checklist: https://ert93333-ops.github.io/soft-404-qa-briefs/soft-404-seo-checklist.html
-- GitHub Gist checklist: pending launch
+- GitHub Gist checklist: https://gist.github.com/ert93333-ops/0c91935d50d468bb9fb443362518894c
 
 ## Marketing Test Links
 
