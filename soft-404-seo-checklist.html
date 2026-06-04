@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soft 404 SEO Checklist | Soft 404 QA Briefs</title>
+    <meta
+      name="description"
+      content="A practical soft 404 SEO checklist for migration teams, technical SEOs, publishers, ecommerce teams, and frontend owners checking status/body mismatches before launch."
+    >
+    <link rel="canonical" href="https://ert93333-ops.github.io/soft-404-qa-briefs/soft-404-seo-checklist.html">
+    <meta property="og:title" content="Soft 404 SEO Checklist">
+    <meta property="og:description" content="Check 200 error-like pages, 204 content gaps, 404/410 mismatches, redirect chains, and owner decisions before launch.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ert93333-ops.github.io/soft-404-qa-briefs/soft-404-seo-checklist.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-product="Soft 404 QA Briefs">
+    <a class="skip-link" href="#checklist">Skip to checklist</a>
+
+    <header class="site-header" data-header>
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="Soft 404 QA Briefs home">
+          <span class="brand-mark" aria-hidden="true">S4</span>
+          <span>Soft 404 QA Briefs</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html#workflow">Auditor</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#waitlist">Early access</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Soft 404 SEO checklist</p>
+            <h1>Prelaunch checks for 200 pages that look broken.</h1>
+            <p class="hero-subtitle">
+              Use this checklist before migrations, content pruning, product removals, archive cleanup,
+              documentation moves, or no-results template launches.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="index.html#workflow" data-track-cta="checklist_try_tool">Run the soft 404 auditor</a>
+              <a class="button secondary" href="index.html#waitlist" data-track-cta="checklist_waitlist">Request early access</a>
+            </div>
+          </div>
+
+          <div class="product-preview reveal" aria-label="Checklist preview">
+            <div class="preview-header">
+              <span class="status-dot"></span>
+              <span>status/body launch checklist</span>
+            </div>
+            <div class="brief-preview">
+              <p class="brief-label">Primary risk</p>
+              <strong>The status says success, but the page content says error.</strong>
+              <p>Check body copy, titles, status codes, redirect chains, and owner decisions before launch.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band" id="checklist">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Checklist</p>
+            <h2>Soft 404 checks before launch</h2>
+            <p>
+              This is a manual QA asset for launch owners. It is not a crawler, Search Console export,
+              PageSpeed report, or indexing guarantee.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <h3>1. 200 pages with error copy</h3>
+              <p>Check successful-status URLs whose title or body says not found, no results, unavailable, empty, removed, missing, error, or similar language.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>2. 204 content gaps</h3>
+              <p>Confirm no indexable content is expected when a sample returns 204 or has an empty body snippet.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>3. 404/410 valid-content mismatch</h3>
+              <p>Review 404 or 410 rows whose title or body still looks like a valid product, article, category, guide, or documentation page.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>4. Redirect chains</h3>
+              <p>Shorten redirect chains near or over 10 hops and require a final target URL in migration QA samples.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>5. 5xx and 429 rows</h3>
+              <p>Keep server errors and rate-limit responses out of launch samples before final signoff.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>6. Thin main content</h3>
+              <p>For 2xx pages, make sure body snippets include meaningful main content, not only shell copy or placeholder text.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>7. Owner decision</h3>
+              <p>Each risky row needs a decision: keep, redirect, 404, 410, noindex, restore content, replace, or remove from launch.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>8. Template grouping</h3>
+              <p>Review expired products, removed posts, no-results search, archive cleanup, and docs migrations separately.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>9. Post-launch retest</h3>
+              <p>Retest after routing, CDN, redirect, status-code, template-copy, or content-pruning changes ship.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="handoff-title">
+        <div class="shell resources-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Handoff prompt</p>
+            <h2 id="handoff-title">Copy this into a launch ticket</h2>
+            <p>
+              Paste URL/status/title/body rows, intended outcome notes, and redirect hop counts
+              into the auditor before final migration, frontend, or SEO signoff.
+            </p>
+          </div>
+          <a class="resource-link reveal" href="index.html#workflow" data-track-cta="checklist_core_workflow">
+            <span>Open the browser-local soft 404 QA workflow</span>
+            <span aria-hidden="true">-&gt;</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>Soft 404 QA Briefs</span>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

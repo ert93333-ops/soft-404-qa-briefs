@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ert93333-ops.github.io/soft-404-qa-briefs/sitemap.xml
